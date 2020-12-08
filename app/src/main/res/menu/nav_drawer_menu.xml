@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/itemHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/itemRecipes"
+        android:icon="@drawable/ic_foodbank"
+        android:title="Recipes Suggestion" />
+    <item
+        android:id="@+id/itemFeed"
+        android:icon="@drawable/ic_message"
+        android:title="My Feed" />
+
+    <item android:title="Setting">
+
+        <menu>
+
+            <item
+                android:id="@+id/itemAccount"
+                android:icon="@drawable/ic_settings"
+                android:title="My Account" />
+
+            <item
+                android:id="@+id/itemLogout"
+                android:icon="@drawable/ic_account_circle"
+                android:title="Log Out" />
+
+        </menu>
+
+    </item>
+
+</menu>

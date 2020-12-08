@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Customize Dialog background to be translucent no bound theme-->
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <!--Background color and transparency-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--Whether to remove the title-->
+        <item name="android:windowNoTitle">true</item>
+        <!--remove bound?-->
+        <item name="android:windowFrame">@null</item>
+        <!--Floating at above activity?-->
+        <item name="android:windowIsFloating">true</item>
+        <!--Y/N Blur-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
